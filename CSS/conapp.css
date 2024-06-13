@@ -1,0 +1,59 @@
+
+        *{
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+        }
+        body{
+            background-image: url(/Solo-project/images/200521-college-student-laptop-stock-cs-419p-cover.webp);
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .navbar-brand img{
+            width: 45px;
+            height:10vh;
+        }
+        .navbar-brand strong{
+            margin-left: 0;
+            background: linear-gradient(180deg, brown, green);
+            padding: 0;
+            font-size: 15px;
+        }
+        /* form design starts here */
+        .container-head{
+            color: #fff;
+            text-align: center;
+            margin-top: 15px;
+        }
+        .container-body{
+            background-color: #fff;
+            width: 50%;
+            height: fit-content;
+            padding: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+        }
+        label{
+            font-size: 25px;
+        }
+        input:focus{
+            outline: none;
+        }
+        .support{
+            color: #fff;
+            margin-top: 20px;
+            justify-content: center;
+            font-size: 20px;
+            padding: 10px;
+        }
+        .support span button{
+            background-color: red;
+            border: none;
+            color: #fff;
+            padding: 2px 12px;
+            border-radius: 4px;
+        }
+  

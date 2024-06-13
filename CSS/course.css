@@ -1,0 +1,519 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    }
+     /* my main container starts here,this includes the header,see div,and container-flex */
+    
+    .container{
+    
+    background-color:rgb(248, 242, 242);
+    width: 90%;
+    margin: auto;
+    height: 90vh;
+    
+    }
+    
+    .header{
+    
+    display: flex;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    
+    }
+    
+    .see{
+    position:absolute;
+        right: 12%;
+    
+    }
+    .see a{
+    
+        color: gray;
+    }
+    
+    
+    .container-flex{
+    
+     display: flex;
+     gap: 20px;
+    
+    
+    }
+    
+    /* main content starts here this includes .main-content-2 and .main-content-3 respectively */
+    
+    .main-content-1{
+    
+    background-color:white;
+    padding: 40px;
+    height: 65vh;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    width: 30%;
+    
+    
+    }
+    
+    .main-content-1:hover, .main-content-2:hover, .main-content-3:hover{
+    
+        border: 2px solid purple;
+    box-shadow: 10px 20px 30px rgb(227, 210, 227);
+    }
+    
+    .card-1{
+    
+    background-color: rgb(166, 116, 166);
+    padding: 40px;
+    border-radius: 15px;
+    
+    
+    }
+    
+    .card-1 img{
+    
+    margin-left: 35px;
+    width: 60%;
+    border-radius: 5px;
+    
+    }
+    
+     h2{
+    
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+    .percentage-flex{
+    
+     display: flex;
+        gap: 60px;
+    }
+    
+    .green-main{
+     
+     padding: 1px; 
+     background-color: rgb(154, 204, 154); 
+     opacity: 1; 
+     width: 70%;
+     margin-top: 10px;
+     border-radius: 5px;
+     
+    }
+    .green-1{
+    
+    background-color:darkgreen;
+    padding: 3px;
+    width: 40%;
+    border-radius: 5px;
+    }
+    
+    .button-1{
+    
+    background-color: #fff;
+    padding: 12px 10px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+    }
+    
+         .button-1:hover{
+    
+            
+            background-color: rgb(118, 54, 179);
+            color: #fff;
+    
+            }
+            .button-1 a span:hover{
+             color: #fff;
+    
+            }
+       .button-1 a span{
+    
+        font-size: 25px;
+        padding-left: 30%;
+        color: black;
+    
+        }
+    
+       .main-content-2{
+    
+        background-color:#fff;
+        padding: 40px;
+        height: 65vh;
+        margin-left: 20px;
+        margin-top: 20px;
+        border-radius: 15px;
+        width: 30%;
+        box-shadow: 10px 20px 30px rgb(212, 199, 199);
+    
+        
+        }
+        
+        .card-2{
+        
+        background-color: rgb(225, 171, 72);
+        padding: 40px;
+        border-radius: 15px;
+        
+        }
+        
+        .card-2 img{
+        
+        margin-left: 55px;
+        width: 45%;
+        border-radius: 3px;
+        
+        }
+        
+         h2{
+        
+        font-size: 18px;
+        padding-top: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        }
+        
+        .percentage-flex{
+        
+         display: flex;
+            gap: 60px;
+        }
+        
+        .green-main{
+         
+         padding: 1px; 
+         background-color: rgb(154, 204, 154); 
+         opacity: 1; 
+         width: 70%;
+         margin-top: 10px;
+         border-radius: 5px;
+         
+        }
+        .green-2{
+        
+        background-color:darkgreen;
+        padding: 3px;
+        width: 70%;
+        border-radius: 5px;
+        }
+        
+        .button-2{
+        
+       background-color: #fff;
+        padding: 12px 10px;
+        margin-top: 40px;
+        border-radius: 10px;
+        border: 1px solid black;
+        
+        }
+    
+        .button-2:hover{
+    
+            background-color: rgb(118, 54, 179);
+            color: #fff;
+    
+            }
+    
+            .button-2 a span:hover{
+             color: #fff;
+    
+            }
+        .button-2 a span{
+        
+            font-size: 25px;
+            padding-left: 30%;
+            color: black;
+        
+            
+        }
+    
+        .main-content-3{
+    
+            background-color:#fff;
+            padding: 40px;
+            height: 65vh;
+            margin-left: 20px;
+            margin-top: 20px;
+            border-radius: 15px;
+            width: 30%;
+            
+            }
+            
+            .card-3{
+            
+            background-color: rgba(234, 127, 164, 0.914);
+            padding: 30px;
+            border-radius: 15px;
+            
+            }
+            
+            .card-3 img{
+            
+            margin-left: 60px;
+            width: 45%;
+            border-radius: 3px;
+            
+            }
+            
+             h2{
+            
+            font-size: 18px;
+            padding-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            }
+            
+            .percentage-flex{
+            
+             display: flex;
+                gap: 60px;
+            }
+            
+            .green-main{
+             
+             padding: 1px; 
+             background-color: rgb(154, 204, 154); 
+             opacity: 1; 
+             width: 70%;
+             margin-top: 10px;
+             border-radius: 5px;
+             
+            }
+            .green-3{
+            
+            background-color:darkgreen;
+            padding: 3px;
+            width: 20%;
+            border-radius: 5px;
+            }
+            
+            .button-3{
+            
+           background-color: #fff;
+            padding: 12px 10px;
+            margin-top: 40px;
+            border-radius: 10px;
+            border: 1px solid black;
+            
+            }
+    
+            .button-3:hover{
+    
+            
+            background-color: rgb(118, 54, 179);
+            color: #fff;
+    
+            }
+            .button-3 a span:hover{
+             color: #fff;
+    
+            }
+    
+    
+            .button-3 a span{
+            
+                font-size: 25px;
+                padding-left: 30%;
+                color: black;
+            
+            }
+    
+            .icon{
+            margin-top: 25px;
+            margin-left: 20px;
+            font-size: 20px;
+            
+    
+            }
+    
+            .icon a span{
+                color: #222;
+            }
+    
+    
+            /* the mobile responsiveness starts here */
+    
+            @media screen and (max-width:1000px) {
+                .main-content-3{
+    
+                    background-color:white;
+                    padding: 40px;
+                    height: 70vh;
+                    margin-left: 20px;
+                    margin-top: 20px;
+                    border-radius: 15px;
+                    width: 30%;
+                    
+                    
+                    }
+                    
+                    .main-content-2{
+    
+                        background-color:white;
+                        padding: 40px;
+                        height: 70vh;
+                        margin-left: 20px;
+                        margin-top: 20px;
+                        border-radius: 15px;
+                        width: 30%;
+                        
+                        
+                        }
+    
+                        .main-content-1{
+    
+                            background-color:white;
+                            padding: 40px;
+                            height: 70vh;
+                            margin-left: 20px;
+                            margin-top: 20px;
+                            border-radius: 15px;
+                            width: 30%;
+                            
+                            
+                            }
+                
+                
+            }
+    
+            /* mobile responsiveness for tablet */
+    
+            @media (max-width:820px)and (min-width:500px) {
+    
+                .card-1 img{
+    
+                    margin-left: -10px;
+                    width: 150%;
+                    border-radius: 5px;
+                    
+                    
+                    }
+    
+                    .card-2 img{
+    
+                    width: 140%;
+                    margin: auto;
+    
+                    }
+                
+    
+                    .card-3 img{
+                    width: 80%;
+                    margin: auto;
+                        
+                    }
+    
+                    .card-3{
+    
+                        height: 20vh;
+                    }
+                    
+            .button-1{
+    
+            background-color: #fff;
+            padding: 12px 10px;
+            margin-top: 40px;
+            border-radius: 10px;
+            border: 1px solid black;
+            
+           }
+        
+             .button-1:hover{
+        
+                
+                background-color: rgb(118, 54, 179);
+                color: #fff;
+        
+                }
+                .button-1 a span:hover{
+                 color: #fff;
+        
+                }
+           .button-1 a span{
+        
+            font-size: 18px;
+            padding-left: 10%;
+            color: black;
+        
+            }
+                 
+    .button-2{
+    
+        background-color: #fff;
+        padding: 12px 10px;
+        margin-top: 40px;
+        border-radius: 10px;
+        border: 1px solid black;
+        
+        }
+        
+             .button-2:hover{
+        
+                
+                background-color: rgb(118, 54, 179);
+                color: #fff;
+        
+                }
+                .button-1 a span:hover{
+                 color: #fff;
+        
+                }
+           .button-2 a span{
+        
+            font-size: 18px;
+            padding-left: 10%;
+            color: black;
+        
+            }
+                 
+         .button-3{
+    
+            background-color: #fff;
+            padding: 12px 10px;
+            margin-top: 40px;
+            border-radius: 10px;
+            border: 1px solid black;
+        
+        }
+        
+             .button-3:hover{
+        
+                
+                background-color: rgb(118, 54, 179);
+                color: #fff;
+        
+                }
+                .button-1 a span:hover{
+                 color: #fff;
+        
+                }
+           .button-3 a span{
+        
+            font-size: 18px;
+            padding-left: 10%;
+            color: black;
+        
+            }
+                    
+                
+                
+            }
+            
+            
+            
+        
+        
+        
+    
+    
+    

@@ -1,0 +1,224 @@
+
+/* slider design caption here */
+
+.carousel-caption{
+
+    bottom: 400px;
+    background-color: rgba(0, 0, 0, 0.208);
+}
+
+.carousel-caption h1{
+  font-size: 50px;
+  font-weight: bolder;
+  color: brown;
+  text-transform: uppercase;
+  
+}
+
+.carousel-caption p{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    margin: auto;
+  }
+
+.carousel-item{
+    background: no-repeat;
+    background-position: center ;
+    height: fit-content;
+    min-width: 300px;
+    background-size: cover;
+}
+
+.carousel-caption a{
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+/* ul color design */
+
+ li a, .nav-link{
+  color: #fff;
+  font-size: 20px;
+}
+
+/* arrow design here */
+
+span svg:hover{
+  padding: 5px;
+}
+
+.sign-div{
+  margin-left: 100px;
+  
+}
+
+.vertical{
+  background-color: #fff;
+  padding: 1px;
+}
+
+/* logo design here */
+
+.navbar-brand img{
+  width: 45px;
+  height:10vh;
+  
+}
+
+.navbar-brand strong{
+  margin-left: 0;
+  background: linear-gradient(180deg, brown, green);
+  padding: 0;
+}
+
+/* this contains all the five footers respectively */
+
+.motherfooter{
+
+  background-color: rgb(20, 17, 12) ;
+  color: aliceblue;
+  padding-top: 20px;
+  display: flex;
+  list-style-type: none;
+  }
+  .motherfooter li{
+    list-style-type: none;
+  }
+  .firstfooter h1{
+  
+  margin-left: 50px;
+  padding-top: 20px;
+  font-size: 30px;
+  text-transform: capitalize;
+  
+  }
+  .firstfooter li{
+  
+  padding: 10px;
+  text-transform: capitalize;
+  }
+  
+  .secondfooter h1{
+  
+    margin-left: 50px;
+    padding-top: 20px;
+    font-size: 30px;
+    text-transform: capitalize;
+    
+    }
+    .secondfooter li{
+    
+    padding: 10px;
+    text-transform: capitalize;
+    }
+  
+    .thirdfooter h1{
+  
+      margin-left: 50px;
+      padding-top: 20px;
+      font-size: 30px;
+      text-transform: capitalize;
+      
+      }
+      .thirdfooter li{
+      
+      padding: 10px;
+      text-transform: capitalize;
+      }
+  
+      .fourthfooter h1{
+  
+        margin-left: 50px;
+        padding-top: 20px;
+        font-size: 30px;
+        text-transform: capitalize;
+        
+        }
+        .fourthfooter li{
+        
+        padding: 10px;
+        text-transform: capitalize;
+        }
+  
+        .lastfooter h1{
+  
+          margin-left: 50px;
+          padding-top: 20px;
+          font-size: 30px;
+          text-transform: capitalize;
+          
+          }
+          .lastfooter li{
+          
+          padding: 10px;
+          text-transform: capitalize;
+          }
+          .icons{
+  
+            padding: 20px;
+            background-color: rgb(20, 17, 12) ;
+            color: white;
+          
+          }
+          .ico{
+            display: flex;
+            margin-left: 20px;
+            padding: 20px;
+            gap: 30px;
+            font-size: 20px;
+  
+          }
+
+          /* tablets and mobile responsiviness */
+
+              /* 1325-900 screen size */
+          @media screen and (min-width: 900px) and (max-width:1325px){
+            
+                .d-flex input, button{
+               display: none;
+    
+              }
+              .carousel-caption{
+                bottom: 300px;
+                background-color: rgba(0, 0, 0, 0.208);
+              }
+
+          }
+                 /* 1106-1020 screen size */
+          @media screen and (min-width: 1020px) and (max-width:1106px){
+            
+            .d-flex, button,input{
+            display: none;
+
+          }
+          .carousel-caption{
+            bottom: 100px;
+            background-color: rgba(0, 0, 0, 0.208);
+          }
+          li a, .nav-link{
+            color: #fff;
+            font-size: 16px;
+          }
+       
+         
+      }
+       /* 1020-770 screen size */
+      @media screen and (min-width: 770px) and (max-width:1020px){
+            
+        .d-flex, button,input{
+        display: none;
+
+      }
+      .carousel-caption{
+        bottom: 100px;
+        background-color: rgba(0, 0, 0, 0.208);
+      }
+      li a, .nav-link{
+        color: #fff;
+        font-size: 16px;
+      }
+   
+     
+  }
+  

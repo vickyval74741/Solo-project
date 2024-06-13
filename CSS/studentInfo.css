@@ -1,0 +1,385 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    .main-container{
+    
+    display: flex;
+    background-color: rgb(236, 234, 230);
+    gap: 2px;
+    padding-bottom: 20px;
+    }
+    
+    /* my .right-container design starts here this consist of stack,icon-flex,review containers  respecively */
+    .right-container{
+     
+    width: 70%;
+    
+    }
+    .stack h1{
+     
+        font-size: 25px;
+        margin-top: 5px;
+        padding: 10px;
+    
+    }
+    
+    .stack{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    
+    
+    }
+    .icon-flex{
+    position: absolute;
+    right: 36%;
+    top: 22px;
+    
+    
+    }
+    .icon-flex span{
+        color: gray;
+        padding: 10px;
+    }
+    
+    .review{
+    padding-top: 2px;
+    padding-bottom: 30px;
+    
+    }
+    .review span{
+        padding: 8px;
+        color: gray;
+    }
+    .fa-star{
+        color: rgb(202, 171, 14);
+    }
+    
+    /* video design starts here */
+    .video video{
+    
+    width: 90%;
+    border-radius: 10px;
+    margin-left: 8px;
+    margin-top: 5px;
+    
+    
+    }
+    .about1{
+     padding: 10px;
+     background-color: #fff;
+     width: 29%;
+     border-radius: 10px;
+     margin-left: 10px;
+     margin-top: 5px;
+    
+    }
+    .about1 span{
+    
+        padding: 10px;
+        color: gray;
+    
+    
+    }
+
+    .about2{
+
+        margin-left: 10px;
+    }
+    .line{
+        padding: 1px;
+        background-color: gray;
+        width: 29%;
+        margin-left: 10px;
+        border-radius: 5px;
+    }
+    .about1 span:hover{
+        color: green;
+    }
+    .line:hover{
+        color: green;
+    }
+    
+    /* progress design starts here */
+    .progress{
+    
+        background-color: #fff;
+        margin-top: 20px;
+        width: 130%;
+        padding: 15px;
+        border-radius: 10px;
+    
+    }
+    
+    .progress-flex{
+    
+        display: flex;
+        gap: 65%;
+        margin-bottom: 10px;
+    }
+    .abbey{
+    font-size: 27px;
+    color:gray;
+    
+    }
+    .green{
+    
+        background-color: lightgray;
+        padding: 5px;
+        position: relative;
+    }
+    .green1{
+    
+        background-color: green;
+        width: 30%;
+        position: absolute;
+        padding: 5px;
+        top: 0px;
+        left: 0px;
+    
+    }
+    
+    .full-flex{
+    
+        display: flex;
+        gap: 24%;
+        margin-top: 5px;
+    }
+    
+    .owoh{
+        color: gray;
+    }
+    
+    /* course-main design starts here */
+    .courses-main{
+        background-color: #fff;
+        margin-top: 20px;
+        width: 130%;
+        padding: 15px;
+        border-radius: 10px;
+    
+    }
+    
+    .course-flex{
+        display: flex;
+        gap: 34%;
+    }
+    .icon-2{
+        padding: 2px;
+        margin-top: 8px;
+    }
+    .fa-angle-up{
+        background-color:green;
+        margin-left: 2px;
+        border-radius: 50%;
+        font-size: 18px;
+        color: #fff;
+    }
+    
+    /* video-box design starts here */
+    
+    .video-box-1{
+    
+        background-color: green;
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 10px;
+        position: relative;
+    }
+    .video-flex{
+        display: flex;
+        gap: 60%;
+        padding-left: 20px;
+       margin-bottom: 15px;
+       font-size: 17px;
+       color: #fff;
+    }
+    
+    .fa-play{
+    position: absolute;
+    background-color: #fff;
+    top: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    color: green;
+    
+    }
+    
+    /* video-box-2 design here */
+    
+    .video-box-2{
+    
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 10px;
+        position: relative;
+    }
+    .video-flex-2{
+        display: flex;
+        gap: 54%;
+        padding-left: 20px;
+       margin-bottom: 15px;
+       font-size: 17px;
+       color: black;
+    }
+    
+    .fa-lock{
+    position: absolute;
+    background-color: #fff;
+    top: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    color: black;
+    
+    }
+    /* video-box-3 design starts here */
+    .video-box-3{
+    
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 10px;
+        position: relative;
+    }
+    .video-flex-3{
+        display: flex;
+        gap: 77%;
+        padding-left: 20px;
+       margin-bottom: 15px;
+       font-size: 17px;
+       color: black;
+    }
+    
+    .fa-lock{
+    position: absolute;
+    background-color: #fff;
+    top: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    color: black;
+    
+    }
+    /* video-box-4 design starts here */
+    .video-box-4{
+    
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 10px;
+        position: relative;
+    }
+    .video-flex-4{
+        display: flex;
+        gap: 60%;
+        padding-left: 20px;
+       margin-bottom: 15px;
+       font-size: 17px;
+       color: black;
+    }
+    
+    .fa-lock{
+    position: absolute;
+    background-color: #fff;
+    top: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    color: black;
+    
+    }
+    
+    
+    .video-box-5{
+    
+        background-color: lightgray;
+        border-radius: 10px;
+        padding: 12px;
+        margin-top: 10px;
+        position: relative;
+    }
+    .video-flex-5{
+        display: flex;
+        gap: 72%;
+        padding-left: 20px;
+       margin-bottom: 15px;
+       font-size: 17px;
+       color: black;
+    }
+    
+    .fa-lock{
+    position: absolute;
+    background-color: #fff;
+    top: 12px;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    color: black;
+    
+    }
+    
+    /* audio-flex design starts here */
+    
+    .audio-flex{
+        background-color: #fff;
+        margin-top: 20px;
+        width: 130%;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        gap: 67%;
+        font: bold;
+        
+    }
+    
+    .fa-caret-down{
+    
+        background-color: rgb(200, 240, 200);
+        color: green;
+        padding: 3px;
+        border-radius: 50%;
+        font-size: 12px;
+    }
+    
+    /* module design starts here */
+    
+    .module-flex{
+        background-color: #fff;
+        margin-top: 20px;
+        width: 130%;
+        padding: 15px;
+        border-radius: 10px;
+        display: flex;
+        gap: 64%;
+        font: bold;
+        
+    }
+    
+    .fa-caret-down{
+    
+        background-color: rgb(165, 224, 165);
+        color: green;
+        padding: 3px;
+        border-radius: 50%;
+        font-size: 12px;
+    }
+    
+    .video-box-2:hover, .video-box-3:hover, .video-box-4:hover, .video-box-5:hover{
+    
+    background-color: green;
+     
+    }
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.admin-panel{
+    margin-top: 50px;
+    width: 80%;
+    
+}
+
+.container-header{
+    background-color: green;
+    gap: 20px;
+    position: relative;
+   padding: 25px 20px;
+   z-index: 111;
+    
+}
+.header-flex{
+    position: absolute;
+    right: 10px;
+   padding-right: 20px;
+   font-size: 20px;
+   gap: 20px;
+   bottom: 8px;
+  
+}
+.admin{
+    background-color: darkgreen;
+    padding: 12px 39px;
+    left: 0;
+    position: absolute;
+    top:0
+
+}
+.header-flex a{
+color: black;
+text-decoration: none;
+}
+.header-flex a:hover{
+  padding: 2px 10px;
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+/* sidebar design here */
+.side-bar{
+    width: 12%;
+    background-color: #e9e7e7;
+    margin-top: -50px;
+    padding-top: 30px;  
+}
+.side-bar p{
+    margin-left:-15px;
+    font-size: 15px;
+}
+
+/* ul design here */
+ul{
+    padding: 20px 20px;
+  
+}
+ul, li{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    list-style-type: none;
+    text-decoration: none;
+}
+ul, li,a:hover{
+    color: darkgreen;
+}
+a{
+text-decoration: none;
+color: black;
+}
+ .students-div{
+    background-color: #e9e7e7;
+    padding-top: 200px;
+    margin-top: -100px;
+    padding-bottom: 40px;
+    /* margin-left: 60px; */
+
+}
+.students-div, p{
+    padding-left: 40px;
+}
+
+button{
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+}
+ button.edit{
+    background-color:gray;
+}
+.delete{
+    background-color: red;
+} 
+

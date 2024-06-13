@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .form-container {
+            width: 40%;
+            height: 60vh;
+            padding: 60px;
+            padding-top: 50px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px 0px #000;
+        }
+        .form-container input[type="text"], .form-container input[type="password"], .form-container input[type="email"] {
+            width: 100%;
+            padding: 16px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .placeholder{
+            font: 30px;
+        }
+        .form-container button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            padding-top: 15px;
+            margin-top: 20px;
+            margin-left: 18px;
+            background-color: #007BFF;
+            border: 0;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+        .form-container button[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .form-container .switch-form {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form id="signup-form">
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="phone" placeholder="Phone Number">
+            <input type="text" name="address" placeholder="Address">
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="switch-form">
+            Already have an account? <a href="#">Sign In</a>
+        </div>
+    </div>
+ 
+</body>
+</html>
